@@ -1,7 +1,7 @@
 # Scraping EDGAR data using Google DataFlow and Buckets
 
 
-<img src="https://github.com/kashishshah881/data-pipeline/blob/master/img1.jpeg" width="1000">
+<img src="https://github.com/SanikommuHarshitha/Google-Cloud-Platform-Data-Pipeline/blob/master/img1.jpeg" width="1000">
 
 
 The aim of the project is to create a data pipeline for scraping and computing the word counts from various lists of EDGAR data.
@@ -17,14 +17,14 @@ The aim of the project is to create a data pipeline for scraping and computing t
 
 Below is the process flow
 
-<img src="https://github.com/kashishshah881/data-pipeline/blob/master/img2.png" width="300" position='center'>
+<img src="https://github.com/SanikommuHarshitha/Google-Cloud-Platform-Data-Pipeline/blob/master/img2.png" width="300" position='center'>
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ```
-git clone https://github.com/kashishshah881/data-pipeline.git
+git clone https://github.com/SanikommuHarshitha/Google-Cloud-Platform-Data-Pipeline.git
 
 ```
 
@@ -55,7 +55,7 @@ Test If you have adequate access writes to your Bucket by running the example sh
 ##### Step 3
 Spin up a Google VM Instance <a href='https://console.cloud.google.com/compute/instances'> Here </a> with minimum configuration since DataFlow is a managed service, it handles the resources part.
 ##### Step 4
-> Configure file <a href="https://github.com/kashishshah881/data-pipeline/blob/master/main.py">`main.py`</a> from lines 26 to 29 according to your google credentials. Also enter the bucket location in lines 324 to 331 in <a href="https://github.com/kashishshah881/data-pipeline/blob/master/main.py">`main.py`</a>
+> Configure file <a href="https://github.com/kashishshah881/data-pipeline/blob/master/main.py">`main.py`</a> from lines 26 to 29 according to your google credentials. Also enter the bucket location in lines 324 to 331 in <a href="https://github.com/SanikommuHarshitha/Google-Cloud-Platform-Data-Pipeline/blob/master/main.py">`main.py`</a>
 ##### Step 5
 Once Everything is installed successfully the below command inside the repository folder
 ```
@@ -66,9 +66,8 @@ python3 main.py
 
 ## Authors
 
-* **[Kashish Shah](http://www.kashishshah.com)**
-* **[Dhruv Panchal](http://www.linkedin.com/in/panchaldhruv)**
-* **[Manogna Mantripragada](http://www.linkedin.com/in/manogna-mantripragada)**
+* **[Harshitha Sanikommu](https://www.linkedin.com/in/harshitha-sanikommu/)**
+
 
 
 
